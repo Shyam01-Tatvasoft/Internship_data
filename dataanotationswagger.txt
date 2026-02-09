@@ -1,0 +1,56 @@
+Swashbuckle.AspNetCore.Annotations
+
+using System.ComponentModel.DataAnnotations;
+using Swashbuckle.AspNetCore.Annotations;
+
+public class UserRegisterDto
+{
+    public int? Id { get; set; }
+
+    [Required(ErrorMessage = "First Name is required.")]
+    [MaxLength(100)]
+    [RegularExpression(@"^[a-zA-Z0-9]+$", ErrorMessage = "First Name can only contain letters.")]
+    [SwaggerSchema(Example = "John")]
+    public string FirstName { get; set; } = null!;
+
+    [Required]
+    [MaxLength(100)]
+    [RegularExpression(@"^[a-zA-Z0-9]+$", ErrorMessage = "Last Name can only contain letters.")]
+    [SwaggerSchema(Example = "Doe")]
+    public string LastName { get; set; } = null!;
+
+    [Required]
+    [MaxLength(200)]
+    [EmailAddress]
+    [SwaggerSchema(Example = "john.doe@example.com")]
+    public string Email { get; set; } = null!;
+
+    [Required]
+    [MinLength(8)]
+    [MaxLength(200)]
+    [DataType(DataType.Password)]
+    [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*#?&]).{8,}$")]
+    [SwaggerSchema(Example = "P@ssword123")]
+    public string? Password { get; set; }
+
+    [Required]
+    [RegularExpression(@"^[1-9]\d{9}$")]
+    [MaxLength(10)]
+    [SwaggerSchema(Example = "9876543210")]
+    public string? Phone { get; set; }
+
+    [Required]
+    [SwaggerSchema(Example = "India")]
+    public string? Country { get; set; }
+
+    [Required]
+    [SwaggerSchema(Example = 1)]
+    public int CountryId { get; set; }
+
+    [Required]
+    [SwaggerSchema(Example = 5)]
+    public int Timezone { get; set; }
+
+    [SwaggerSchema(Example = "User")]
+    public string? Role { get; set; }
+}

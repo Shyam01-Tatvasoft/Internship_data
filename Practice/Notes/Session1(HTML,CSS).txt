@@ -1,0 +1,9 @@
+container Tag : starting and Ending
+Div and float: it contain full width because it is block level element so overcome this we use float (like: left , right)
+float and clear : it means floating somthing so when we apply this then it affects to other elements and might be bellow content is overlaped. so for preventing elements from sideeffect of float we use clear property  
+
+Position : each element has position default static
+		we can use top,right.bottum,,left property when we apply position
+		fix : fix related to window
+		relative : relative to it's original place
+		absolute: we use absolute property when we should apply relative/absolute/stiky/fixed but not static to it's parent div. usually we should used relative

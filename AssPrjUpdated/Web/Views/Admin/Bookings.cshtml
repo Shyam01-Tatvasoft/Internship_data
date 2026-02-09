@@ -1,0 +1,44 @@
+@model List<Repository.ViewModels.BookingViewModel>
+@{
+    ViewData["Title"] = "Bookings";
+}
+
+<section class="mx-5">
+    <section class="table-responsive card mt-4 shadow">
+    <table class="table table-hover  mb-0" id="example">
+        <thead >
+            <tr class="bg-info">
+                <th >Id</th>
+                <th >UserId</th>
+                <th >UserName</th>
+                <th >No Of Seats</th>
+                <th >Amount</th>
+                <th >TotalAmount</th>
+                <th >Discount</th>
+                <th >Concert Title</th>
+            </tr>
+        </thead>
+        <tbody class="table-group-devider">
+            @if (@Model?.Count() == 0)
+            {
+                <tr>
+                    <td colspan="11" class="text-center text-secondary">No Bookings Found</td>
+                </tr>
+            }
+            @foreach (var e in @Model)
+            {
+                <tr>
+                    <td >@e.Id</td>
+                    <td >@e.UserId</td>
+                    <td >@e.UserName</td>
+                    <td >@e.NoOfSeats</td>
+                    <td >@e.Amount</td>
+                    <td >@e.TotalAmount</td>
+                    <td >@e.Discount</td>
+                    <td >@e.ConcertTitle</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</section>
+</section>

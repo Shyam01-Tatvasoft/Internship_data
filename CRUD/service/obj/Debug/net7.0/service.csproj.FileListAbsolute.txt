@@ -1,0 +1,45 @@
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\service\bin\Debug\net7.0\service.deps.json
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\service\bin\Debug\net7.0\service.dll
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\service\bin\Debug\net7.0\service.pdb
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\service\bin\Debug\net7.0\repository.dll
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\service\bin\Debug\net7.0\repository.pdb
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\service\obj\Debug\net7.0\service.csproj.AssemblyReference.cache
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\service\obj\Debug\net7.0\service.GeneratedMSBuildEditorConfig.editorconfig
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\service\obj\Debug\net7.0\service.AssemblyInfoInputs.cache
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\service\obj\Debug\net7.0\service.AssemblyInfo.cs
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\service\obj\Debug\net7.0\service.csproj.CoreCompileInputs.cache
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\service\obj\Debug\net7.0\service.csproj.CopyComplete
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\service\obj\Debug\net7.0\service.dll
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\service\obj\Debug\net7.0\refint\service.dll
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\service\obj\Debug\net7.0\service.pdb
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\service\obj\Debug\net7.0\ref\service.dll
+D:\CRUD\CRUD\service\bin\Debug\net7.0\service.deps.json
+D:\CRUD\CRUD\service\bin\Debug\net7.0\service.dll
+D:\CRUD\CRUD\service\bin\Debug\net7.0\service.pdb
+D:\CRUD\CRUD\service\bin\Debug\net7.0\repository.dll
+D:\CRUD\CRUD\service\bin\Debug\net7.0\repository.pdb
+D:\CRUD\CRUD\service\obj\Debug\net7.0\service.csproj.AssemblyReference.cache
+D:\CRUD\CRUD\service\obj\Debug\net7.0\service.GeneratedMSBuildEditorConfig.editorconfig
+D:\CRUD\CRUD\service\obj\Debug\net7.0\service.AssemblyInfoInputs.cache
+D:\CRUD\CRUD\service\obj\Debug\net7.0\service.AssemblyInfo.cs
+D:\CRUD\CRUD\service\obj\Debug\net7.0\service.csproj.CoreCompileInputs.cache
+D:\CRUD\CRUD\service\obj\Debug\net7.0\service.csproj.CopyComplete
+D:\CRUD\CRUD\service\obj\Debug\net7.0\service.dll
+D:\CRUD\CRUD\service\obj\Debug\net7.0\refint\service.dll
+D:\CRUD\CRUD\service\obj\Debug\net7.0\service.pdb
+D:\CRUD\CRUD\service\obj\Debug\net7.0\ref\service.dll
+D:\CRUD\service\bin\Debug\net7.0\service.deps.json
+D:\CRUD\service\bin\Debug\net7.0\service.dll
+D:\CRUD\service\bin\Debug\net7.0\service.pdb
+D:\CRUD\service\bin\Debug\net7.0\repository.dll
+D:\CRUD\service\bin\Debug\net7.0\repository.pdb
+D:\CRUD\service\obj\Debug\net7.0\service.csproj.AssemblyReference.cache
+D:\CRUD\service\obj\Debug\net7.0\service.GeneratedMSBuildEditorConfig.editorconfig
+D:\CRUD\service\obj\Debug\net7.0\service.AssemblyInfoInputs.cache
+D:\CRUD\service\obj\Debug\net7.0\service.AssemblyInfo.cs
+D:\CRUD\service\obj\Debug\net7.0\service.csproj.CoreCompileInputs.cache
+D:\CRUD\service\obj\Debug\net7.0\service.csproj.CopyComplete
+D:\CRUD\service\obj\Debug\net7.0\service.dll
+D:\CRUD\service\obj\Debug\net7.0\refint\service.dll
+D:\CRUD\service\obj\Debug\net7.0\service.pdb
+D:\CRUD\service\obj\Debug\net7.0\ref\service.dll

@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "Index";
+}
+
+<button class="btn btn-outline-primary" id="AddBtn">Add Data</button>
+
+<div class="FormContainer">
+    <partial name="_Form" />
+</div>
+
+<script>
+    $("#AddBtn").click(function(){
+        console.log("Click")
+
+         $.ajax({
+            type: 'GET',
+            url: '@Url.Action("Add", "CRUD")',
+            success: function (response) {
+                console.log(response)
+                $("#FormContainer").html(response)
+                $("#AddEditModal").modal('show');
+            },
+            error: function () {
+                toastr.error("Error while fetching the data");
+            }
+        })
+    })
+</script>

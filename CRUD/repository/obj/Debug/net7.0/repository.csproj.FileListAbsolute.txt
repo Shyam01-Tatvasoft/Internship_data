@@ -1,0 +1,42 @@
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\repository\bin\Debug\net7.0\repository.deps.json
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\repository\bin\Debug\net7.0\repository.runtimeconfig.json
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\repository\bin\Debug\net7.0\repository.dll
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\repository\bin\Debug\net7.0\repository.pdb
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\repository\obj\Debug\net7.0\repository.csproj.AssemblyReference.cache
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\repository\obj\Debug\net7.0\repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\repository\obj\Debug\net7.0\repository.AssemblyInfoInputs.cache
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\repository\obj\Debug\net7.0\repository.AssemblyInfo.cs
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\repository\obj\Debug\net7.0\repository.csproj.CoreCompileInputs.cache
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\repository\obj\Debug\net7.0\repository.dll
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\repository\obj\Debug\net7.0\refint\repository.dll
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\repository\obj\Debug\net7.0\repository.pdb
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\repository\obj\Debug\net7.0\repository.genruntimeconfig.cache
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\repository\obj\Debug\net7.0\ref\repository.dll
+D:\CRUD\CRUD\repository\bin\Debug\net7.0\repository.deps.json
+D:\CRUD\CRUD\repository\bin\Debug\net7.0\repository.runtimeconfig.json
+D:\CRUD\CRUD\repository\bin\Debug\net7.0\repository.dll
+D:\CRUD\CRUD\repository\bin\Debug\net7.0\repository.pdb
+D:\CRUD\CRUD\repository\obj\Debug\net7.0\repository.csproj.AssemblyReference.cache
+D:\CRUD\CRUD\repository\obj\Debug\net7.0\repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\CRUD\CRUD\repository\obj\Debug\net7.0\repository.AssemblyInfoInputs.cache
+D:\CRUD\CRUD\repository\obj\Debug\net7.0\repository.AssemblyInfo.cs
+D:\CRUD\CRUD\repository\obj\Debug\net7.0\repository.csproj.CoreCompileInputs.cache
+D:\CRUD\CRUD\repository\obj\Debug\net7.0\repository.dll
+D:\CRUD\CRUD\repository\obj\Debug\net7.0\refint\repository.dll
+D:\CRUD\CRUD\repository\obj\Debug\net7.0\repository.pdb
+D:\CRUD\CRUD\repository\obj\Debug\net7.0\repository.genruntimeconfig.cache
+D:\CRUD\CRUD\repository\obj\Debug\net7.0\ref\repository.dll
+D:\CRUD\repository\bin\Debug\net7.0\repository.deps.json
+D:\CRUD\repository\bin\Debug\net7.0\repository.runtimeconfig.json
+D:\CRUD\repository\bin\Debug\net7.0\repository.dll
+D:\CRUD\repository\bin\Debug\net7.0\repository.pdb
+D:\CRUD\repository\obj\Debug\net7.0\repository.csproj.AssemblyReference.cache
+D:\CRUD\repository\obj\Debug\net7.0\repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\CRUD\repository\obj\Debug\net7.0\repository.AssemblyInfoInputs.cache
+D:\CRUD\repository\obj\Debug\net7.0\repository.AssemblyInfo.cs
+D:\CRUD\repository\obj\Debug\net7.0\repository.csproj.CoreCompileInputs.cache
+D:\CRUD\repository\obj\Debug\net7.0\repository.dll
+D:\CRUD\repository\obj\Debug\net7.0\refint\repository.dll
+D:\CRUD\repository\obj\Debug\net7.0\repository.pdb
+D:\CRUD\repository\obj\Debug\net7.0\repository.genruntimeconfig.cache
+D:\CRUD\repository\obj\Debug\net7.0\ref\repository.dll

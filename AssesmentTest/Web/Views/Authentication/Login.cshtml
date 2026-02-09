@@ -1,0 +1,37 @@
+@model Repository.ViewModels.LoginViewModel;
+@{
+    ViewData["Title"] = "Login";
+    Layout = "_AuthLayout";
+}
+
+
+<div class="col-xl-6 justify-content-center bg-light p-5 border rounded-2 shadow">
+    <div class="row mb-5">
+        <div class="d-flex align-items-center justify-content-center p-0">
+            <h1 class="text-dark">Login</h1>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-center align-items-center">
+        <h5 class="text-center">Welcome,</h5>
+        <form asp-controller="Authentication" asp-action="Login" id="loginForm" method="post">
+            <div class="form-input-div mt-3">
+                <input type="text" placeholder="Email*" class="form-control p-2" name="Email" id="email"
+                    asp-for="Email" />
+                <span class="form-input-icon"><i class="fa-solid fa-user" style="color: gray"></i>
+                </span>
+            </div>
+            <span id="emailError" class="text-danger fs-6 mx-2 mb-3" asp-validation-for="Email"></span>
+            <div class="form-input-div mt-3">
+                <input type="password" placeholder="Password*" class="form-control p-2" name="Password"
+                    asp-for="Password" id="Password" />
+                <span class="form-input-icon"><i class="fa-solid fa-eye" id="eye-icon" style="color: gray"></i>
+                </span>
+            </div>
+            <span id="passwordError" class="text-danger fs-6 mx-2 mb-3" asp-validation-for="Password"></span>
+            <div class="my-3">
+                <button class="btn btn-dark w-100" type="submit">Login</button>
+            </div>
+            <span class="text-success">@ViewData["PasswordChangeMsg"]</span>
+        </form>
+    </div>
+</div>

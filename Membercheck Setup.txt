@@ -1,0 +1,8 @@
+Crete Database in mysql
+
+
+CREATE SCHEMA `MemberChkDev` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+
+Fix logbin error
+SET GLOBAL log_bin_trust_function_creators = 1;

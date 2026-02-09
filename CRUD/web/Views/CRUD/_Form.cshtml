@@ -1,0 +1,150 @@
+@model repository.ViewModel.FormViewModel;
+
+<div class="modal fade" id="AddEditModal" tabindex="-1" aria-labelledby="AddEditModal" aria-hidden="true">
+  <div class="modal-dialog modal-lg  modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="addModifierModalLabel">Add New Book</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="AddDataForm">
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <div class="form-floating">
+                <select class="form-select" id="category" asp-for="Category">
+                  <option selected disabled hidden> Select </option>
+                  <option value="abc">abc</option>
+                  <option value="123">123</option>
+                </select>
+                <label for="category">Select</label>
+                <span class="text-danger ms-1 font-italic" asp-validation-for="Category"></span>
+              </div>
+            </div>
+            <!-- Name Input -->
+            <div class="col-md-6 mb-3">
+              <div class="form-floating">
+                <input type="text" class="form-control" id="Name" placeholder="Name" asp-for="Name" name="Name">
+                <label for="Name">Name*</label>
+                <span class="text-danger ms-1 font-italic" asp-validation-for="Name"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class="col-md-6 mb-3">
+              <div class="form-floating">
+                <input type="text" class="form-control" id="modifierRate" placeholder="Email" asp-for="Email">
+                <label for="modifierRate">Email*</label>
+                <span class="text-danger ms-1 font-italic" asp-validation-for="Email"></span>
+              </div>
+            </div>
+
+            <div class="col-md-6 mb-3">
+              <div class=" form-floating">
+                <input type="date" asp-for="DOB" class="form-control" placeholder="Start Date" id="FromDate" />
+                <label for="Start Date" class="">Start Date</label>
+                <span class="text-danger error" asp-validation-for="DOB"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class="col-md-6 mb-3  d-flex justify-content-start align-items-center">
+              <span class="fw-bold me-2">Gender</span>
+              <div class="form-check me-1">
+                <input class="form-check-input" type="radio" value="Male" name="Gender" asp-for="Gender"
+                  id="radioDefault1">
+                <label class="form-check-label" for="radioDefault1">
+                  Male
+                </label>
+              </div>
+              <div class="form-check me-1">
+                <input class="form-check-input" type="radio" value="Female" name="Gender" id="radioDefault2" asp-for="Gender">
+                <label class="form-check-label" for="radioDefault2">
+                  Female
+                </label>
+              </div>
+              <div class="form-check me-1">
+                <input class="form-check-input" type="radio" value="Other" name="Gender" id="radioDefault2" asp-for="Gender">
+                <label class="form-check-label" for="radioDefault2">
+                  Other
+                </label>
+              </div>
+            </div>
+
+            <div class="col-md-6 mb-3">
+              <div class=" form-floating">
+                <input type="number" asp-for="Amount" class="form-control" placeholder="Amount" />
+                <label for="Amount" class="">Amount</label>
+                <span class="text-danger error" asp-validation-for="Amount"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class="col-md-6 mb-3">
+              <div class="form-check d-flex col  mb-0 col-xl-6 mb-3 mb-lg-0">
+                <input type="checkbox" class="form-check-input mt-0 " asp-for="IsAvailable" value="true" />
+                <input type="hidden" value="false" />
+                <label for="" class="ms-3">Available</label>
+                <span class="text-danger ms-2" asp-validation-for="IsAvailable"></span>
+              </div>
+            </div>
+
+            <div class="col-md-6 mb-3">
+              <div class="form-floating">
+                <input type="text" class="form-control" id="Phone" placeholder="Phone" asp-for="Phone" />
+                <label for="Phone">Phone*</label>
+                <span asp-validation-for="Phone" class="text-danger ms-2"></span>
+              </div>
+            </div>
+          </div>
+          <!-- Buttons -->
+          <div class="d-flex justify-content-end">
+            <button type="submit" class="btn btn-primary me-2" id="saveAddModifierBtn">Save</button>
+            <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+  $("#AddDataForm").submit(function(e) {
+    e.preventDefault();
+    var form = $("#AddDataForm")[0];
+    var formData = new FormData(form);
+
+    $.ajax({
+      url: '/CRUD/Add',
+      type: 'POST',
+      data: formData,
+      processData: false,
+      contentType: false,
+      success: function (response) {
+
+        @* if (response.isValid == true)
+          return;
+        if (response.isSuccess) {
+          toastr.success(response.message);
+          $("#addEditEmployeeModal").modal('hide');
+          GetEmployees();
+        }
+        else {
+          toastr.error(response.message);
+          return;
+        } *@
+        $("#AddEditModal").modal('hide');
+      },
+      error: function (error) {
+        @* toastr.error(error.message) *@
+      }
+    })
+  })
+</script>

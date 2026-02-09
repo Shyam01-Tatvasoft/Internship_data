@@ -1,0 +1,14 @@
+D:\ProjectTest\Repository\bin\Debug\net7.0\Repository.deps.json
+D:\ProjectTest\Repository\bin\Debug\net7.0\Repository.runtimeconfig.json
+D:\ProjectTest\Repository\bin\Debug\net7.0\Repository.dll
+D:\ProjectTest\Repository\bin\Debug\net7.0\Repository.pdb
+D:\ProjectTest\Repository\obj\Debug\net7.0\Repository.csproj.AssemblyReference.cache
+D:\ProjectTest\Repository\obj\Debug\net7.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectTest\Repository\obj\Debug\net7.0\Repository.AssemblyInfoInputs.cache
+D:\ProjectTest\Repository\obj\Debug\net7.0\Repository.AssemblyInfo.cs
+D:\ProjectTest\Repository\obj\Debug\net7.0\Repository.csproj.CoreCompileInputs.cache
+D:\ProjectTest\Repository\obj\Debug\net7.0\Repository.dll
+D:\ProjectTest\Repository\obj\Debug\net7.0\refint\Repository.dll
+D:\ProjectTest\Repository\obj\Debug\net7.0\Repository.pdb
+D:\ProjectTest\Repository\obj\Debug\net7.0\Repository.genruntimeconfig.cache
+D:\ProjectTest\Repository\obj\Debug\net7.0\ref\Repository.dll

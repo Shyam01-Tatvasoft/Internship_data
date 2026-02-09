@@ -1,0 +1,144 @@
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\bin\Debug\net7.0\appsettings.Development.json
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\bin\Debug\net7.0\appsettings.json
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\bin\Debug\net7.0\web.staticwebassets.runtime.json
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\bin\Debug\net7.0\web.exe
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\bin\Debug\net7.0\web.deps.json
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\bin\Debug\net7.0\web.runtimeconfig.json
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\bin\Debug\net7.0\web.dll
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\bin\Debug\net7.0\web.pdb
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\bin\Debug\net7.0\Humanizer.dll
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\bin\Debug\net7.0\Mono.TextTemplating.dll
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\bin\Debug\net7.0\Npgsql.dll
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\bin\Debug\net7.0\System.CodeDom.dll
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\bin\Debug\net7.0\repository.dll
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\bin\Debug\net7.0\service.dll
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\bin\Debug\net7.0\service.pdb
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\bin\Debug\net7.0\repository.pdb
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\obj\Debug\net7.0\web.csproj.AssemblyReference.cache
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\obj\Debug\net7.0\web.GeneratedMSBuildEditorConfig.editorconfig
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\obj\Debug\net7.0\web.AssemblyInfoInputs.cache
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\obj\Debug\net7.0\web.AssemblyInfo.cs
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\obj\Debug\net7.0\web.csproj.CoreCompileInputs.cache
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\obj\Debug\net7.0\web.MvcApplicationPartsAssemblyInfo.cache
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\obj\Debug\net7.0\web.RazorAssemblyInfo.cache
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\obj\Debug\net7.0\web.RazorAssemblyInfo.cs
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\obj\Debug\net7.0\staticwebassets\msbuild.web.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\obj\Debug\net7.0\staticwebassets\msbuild.build.web.props
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.web.props
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.web.props
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\obj\Debug\net7.0\staticwebassets.pack.json
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\obj\Debug\net7.0\staticwebassets.build.json
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\obj\Debug\net7.0\staticwebassets.development.json
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\obj\Debug\net7.0\scopedcss\bundle\web.styles.css
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\obj\Debug\net7.0\scopedcss\projectbundle\web.bundle.scp.css
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\obj\Debug\net7.0\web.csproj.CopyComplete
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\obj\Debug\net7.0\web.dll
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\obj\Debug\net7.0\refint\web.dll
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\obj\Debug\net7.0\web.pdb
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\obj\Debug\net7.0\web.genruntimeconfig.cache
+E:\Internship Tatvasoft\CRUD_App_Practice\CRUD\web\obj\Debug\net7.0\ref\web.dll
+D:\CRUD\CRUD\web\bin\Debug\net7.0\appsettings.Development.json
+D:\CRUD\CRUD\web\bin\Debug\net7.0\appsettings.json
+D:\CRUD\CRUD\web\bin\Debug\net7.0\web.staticwebassets.runtime.json
+D:\CRUD\CRUD\web\bin\Debug\net7.0\web.exe
+D:\CRUD\CRUD\web\bin\Debug\net7.0\web.deps.json
+D:\CRUD\CRUD\web\bin\Debug\net7.0\web.runtimeconfig.json
+D:\CRUD\CRUD\web\bin\Debug\net7.0\web.dll
+D:\CRUD\CRUD\web\bin\Debug\net7.0\web.pdb
+D:\CRUD\CRUD\web\bin\Debug\net7.0\Humanizer.dll
+D:\CRUD\CRUD\web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\CRUD\CRUD\web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\CRUD\CRUD\web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\CRUD\CRUD\web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\CRUD\CRUD\web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\CRUD\CRUD\web\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\CRUD\CRUD\web\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\CRUD\CRUD\web\bin\Debug\net7.0\Npgsql.dll
+D:\CRUD\CRUD\web\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\CRUD\CRUD\web\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+D:\CRUD\CRUD\web\bin\Debug\net7.0\System.CodeDom.dll
+D:\CRUD\CRUD\web\bin\Debug\net7.0\repository.dll
+D:\CRUD\CRUD\web\bin\Debug\net7.0\service.dll
+D:\CRUD\CRUD\web\bin\Debug\net7.0\service.pdb
+D:\CRUD\CRUD\web\bin\Debug\net7.0\repository.pdb
+D:\CRUD\CRUD\web\obj\Debug\net7.0\web.csproj.AssemblyReference.cache
+D:\CRUD\CRUD\web\obj\Debug\net7.0\web.GeneratedMSBuildEditorConfig.editorconfig
+D:\CRUD\CRUD\web\obj\Debug\net7.0\web.AssemblyInfoInputs.cache
+D:\CRUD\CRUD\web\obj\Debug\net7.0\web.AssemblyInfo.cs
+D:\CRUD\CRUD\web\obj\Debug\net7.0\web.csproj.CoreCompileInputs.cache
+D:\CRUD\CRUD\web\obj\Debug\net7.0\web.MvcApplicationPartsAssemblyInfo.cache
+D:\CRUD\CRUD\web\obj\Debug\net7.0\web.RazorAssemblyInfo.cache
+D:\CRUD\CRUD\web\obj\Debug\net7.0\web.RazorAssemblyInfo.cs
+D:\CRUD\CRUD\web\obj\Debug\net7.0\staticwebassets\msbuild.web.Microsoft.AspNetCore.StaticWebAssets.props
+D:\CRUD\CRUD\web\obj\Debug\net7.0\staticwebassets\msbuild.build.web.props
+D:\CRUD\CRUD\web\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.web.props
+D:\CRUD\CRUD\web\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.web.props
+D:\CRUD\CRUD\web\obj\Debug\net7.0\staticwebassets.pack.json
+D:\CRUD\CRUD\web\obj\Debug\net7.0\staticwebassets.build.json
+D:\CRUD\CRUD\web\obj\Debug\net7.0\staticwebassets.development.json
+D:\CRUD\CRUD\web\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\CRUD\CRUD\web\obj\Debug\net7.0\scopedcss\bundle\web.styles.css
+D:\CRUD\CRUD\web\obj\Debug\net7.0\scopedcss\projectbundle\web.bundle.scp.css
+D:\CRUD\CRUD\web\obj\Debug\net7.0\web.csproj.CopyComplete
+D:\CRUD\CRUD\web\obj\Debug\net7.0\web.dll
+D:\CRUD\CRUD\web\obj\Debug\net7.0\refint\web.dll
+D:\CRUD\CRUD\web\obj\Debug\net7.0\web.pdb
+D:\CRUD\CRUD\web\obj\Debug\net7.0\web.genruntimeconfig.cache
+D:\CRUD\CRUD\web\obj\Debug\net7.0\ref\web.dll
+D:\CRUD\web\bin\Debug\net7.0\appsettings.Development.json
+D:\CRUD\web\bin\Debug\net7.0\appsettings.json
+D:\CRUD\web\bin\Debug\net7.0\web.staticwebassets.runtime.json
+D:\CRUD\web\bin\Debug\net7.0\web.exe
+D:\CRUD\web\bin\Debug\net7.0\web.deps.json
+D:\CRUD\web\bin\Debug\net7.0\web.runtimeconfig.json
+D:\CRUD\web\bin\Debug\net7.0\web.dll
+D:\CRUD\web\bin\Debug\net7.0\web.pdb
+D:\CRUD\web\bin\Debug\net7.0\Humanizer.dll
+D:\CRUD\web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\CRUD\web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\CRUD\web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\CRUD\web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\CRUD\web\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\CRUD\web\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\CRUD\web\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\CRUD\web\bin\Debug\net7.0\Npgsql.dll
+D:\CRUD\web\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\CRUD\web\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+D:\CRUD\web\bin\Debug\net7.0\System.CodeDom.dll
+D:\CRUD\web\bin\Debug\net7.0\repository.dll
+D:\CRUD\web\bin\Debug\net7.0\service.dll
+D:\CRUD\web\bin\Debug\net7.0\service.pdb
+D:\CRUD\web\bin\Debug\net7.0\repository.pdb
+D:\CRUD\web\obj\Debug\net7.0\web.csproj.AssemblyReference.cache
+D:\CRUD\web\obj\Debug\net7.0\web.GeneratedMSBuildEditorConfig.editorconfig
+D:\CRUD\web\obj\Debug\net7.0\web.AssemblyInfoInputs.cache
+D:\CRUD\web\obj\Debug\net7.0\web.AssemblyInfo.cs
+D:\CRUD\web\obj\Debug\net7.0\web.csproj.CoreCompileInputs.cache
+D:\CRUD\web\obj\Debug\net7.0\web.MvcApplicationPartsAssemblyInfo.cache
+D:\CRUD\web\obj\Debug\net7.0\web.RazorAssemblyInfo.cache
+D:\CRUD\web\obj\Debug\net7.0\web.RazorAssemblyInfo.cs
+D:\CRUD\web\obj\Debug\net7.0\staticwebassets\msbuild.web.Microsoft.AspNetCore.StaticWebAssets.props
+D:\CRUD\web\obj\Debug\net7.0\staticwebassets\msbuild.build.web.props
+D:\CRUD\web\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.web.props
+D:\CRUD\web\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.web.props
+D:\CRUD\web\obj\Debug\net7.0\staticwebassets.pack.json
+D:\CRUD\web\obj\Debug\net7.0\staticwebassets.build.json
+D:\CRUD\web\obj\Debug\net7.0\staticwebassets.development.json
+D:\CRUD\web\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\CRUD\web\obj\Debug\net7.0\scopedcss\bundle\web.styles.css
+D:\CRUD\web\obj\Debug\net7.0\scopedcss\projectbundle\web.bundle.scp.css
+D:\CRUD\web\obj\Debug\net7.0\web.csproj.CopyComplete
+D:\CRUD\web\obj\Debug\net7.0\web.dll
+D:\CRUD\web\obj\Debug\net7.0\refint\web.dll
+D:\CRUD\web\obj\Debug\net7.0\web.pdb
+D:\CRUD\web\obj\Debug\net7.0\web.genruntimeconfig.cache
+D:\CRUD\web\obj\Debug\net7.0\ref\web.dll

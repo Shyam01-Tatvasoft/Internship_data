@@ -1,0 +1,15 @@
+D:\ProjectTest\Service\bin\Debug\net7.0\Service.deps.json
+D:\ProjectTest\Service\bin\Debug\net7.0\Service.dll
+D:\ProjectTest\Service\bin\Debug\net7.0\Service.pdb
+D:\ProjectTest\Service\bin\Debug\net7.0\Repository.dll
+D:\ProjectTest\Service\bin\Debug\net7.0\Repository.pdb
+D:\ProjectTest\Service\obj\Debug\net7.0\Service.csproj.AssemblyReference.cache
+D:\ProjectTest\Service\obj\Debug\net7.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectTest\Service\obj\Debug\net7.0\Service.AssemblyInfoInputs.cache
+D:\ProjectTest\Service\obj\Debug\net7.0\Service.AssemblyInfo.cs
+D:\ProjectTest\Service\obj\Debug\net7.0\Service.csproj.CoreCompileInputs.cache
+D:\ProjectTest\Service\obj\Debug\net7.0\Service.csproj.CopyComplete
+D:\ProjectTest\Service\obj\Debug\net7.0\Service.dll
+D:\ProjectTest\Service\obj\Debug\net7.0\refint\Service.dll
+D:\ProjectTest\Service\obj\Debug\net7.0\Service.pdb
+D:\ProjectTest\Service\obj\Debug\net7.0\ref\Service.dll

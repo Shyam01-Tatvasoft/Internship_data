@@ -1,0 +1,27 @@
+@model Repository.ViewModels.AdminPageViewModel;
+
+@if (@Model?.ConcertList?.Count() == 0)
+{
+    <div colspan="11" class="text-center text-secondary">No Concerts Available</div>
+}
+<div class="row my-2 gap-2 gap-md-4 mx-md-5 ">
+    @foreach (var c in Model?.ConcertList!)
+    {
+        <div class="col-12 col-md-5 col-lg-3">
+            <div class="card shadow bg-gradient border border-gray border-2 p-2">
+            <div class="fw-bold">Title: @c.Title</div>
+            <p>Artist: @c.ArtistName</p>
+            <p>Venue: @c.Address</p>
+            <p>Price Per Person: @c.TicketPrice</p>
+            <p>Total Seats : @c.TotalSeats</p>
+            <p>Offer: <span class="fw-bold"> @c.DiscountPercentage</span> % off on @c.DiscountSeats Seats</p>
+            <p>Time:  @(c.Time.HasValue ? c.Time.Value.ToString("h:mm tt") : "N/A")</p>
+            <p>Date:   @(c.Date.HasValue ? c.Date.Value.ToString("dd MMM yyyy") : "N/A")</p>
+            <div class="d-flex">
+                <button class="editConcert btn btn-secondary mx-1" data-id="@c.Id">Edit</button>
+            <button  class="deleteConcert btn btn-danger" data-id="@c.Id">Delete</button>
+            </div>
+        </div>
+        </div>
+    }
+</div>

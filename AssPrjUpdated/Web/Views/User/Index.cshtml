@@ -1,0 +1,161 @@
+
+@model Repository.ViewModels.UserPageViewModel;
+@{
+    ViewData["Title"] = "Index";
+
+}
+
+<div class="d-flex justify-content-end mx-4">
+    <input type="text" class="form-control mb-1 w-25" id="SearchConcert" placeholder="search">
+</div>
+
+<div id="concertListContainer" class="container-fluid">
+    <partial name="_UserConcertList" model="Model" />
+</div>
+
+<div id="BookConcertContainer">
+</div>
+
+
+<div class="modal fade" id="BookModal" tabindex="-1" aria-labelledby="exampleModalLabel">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header border-0">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Book Your Ticket</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center p-1">
+                <p id="ticketPrice"></p>
+                <p id="ticketAmount"></p>
+                <p id="ticketDiscount"></p>
+                <p id="total"></p>
+                <div class="quantity">
+                    <button class="minus" aria-label="Decrease">&minus;</button>
+                    <input type="number" class="input-box" value="1" min="1" readonly>
+                    <button class="plus" aria-label="Increase">&plus;</button>
+                </div>
+            </div>
+            <div class="modal-footer d-flex justify-content-center border-0">
+                <button type="button" class="btn btn-primary" id="confirmBookingBtn">Book</button>
+                <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script>
+    var NOS =1;
+    var Total;
+    var Amount;
+    var Discount;
+    var TicketPrice;
+    var TotalSeats;
+    var discountSeat;
+    var discountPer;
+    var concertData;
+
+    function calculateBooking() {
+        var numberOfSeats = parseInt($(".input-box").val());
+        
+        console.log(numberOfSeats)
+        NOS = numberOfSeats;
+        Discount = 0;
+
+        Total = (numberOfSeats * Amount);
+        if (numberOfSeats >= discountSeat) {
+            @* Discount = (numberOfSeats - discountSeat) * (Amount * (discountPer / 100)); *@
+            Discount = (Total * discountPer / 100);
+        }
+
+        Total = (numberOfSeats * Amount) - Discount;
+
+        $("#ticketPrice").text(`Price of Ticket: ${Amount}`);
+        $("#ticketAmount").text(`Total Amount: ${numberOfSeats * Amount}`);
+        $("#ticketDiscount").text(`Discount: ${Discount}`);
+        $("#total").text(`Total Price: ${Total}`);
+    }
+
+    $(".input-box").on('input', function () {
+        calculateBooking();
+    });
+
+    $(".plus").click(function () {
+        var max = $(this).parent().find(".input-box").attr("max");
+        var value = parseInt($(this).parent().find(".input-box").val());
+        var increased = value + 1
+        console.log(value,increased);
+
+        if(increased > 10 && NOS >= concertData.availableSeats)
+        {
+            toastr.warning("You can book maximum 10 tickets")
+            return;
+        }
+        $(this).parent().find(".input-box").val(increased);
+        calculateBooking();
+    })
+
+    $(".minus").click(function () {
+        var min = $(this).parent().find(".input-box").attr("min");
+        var value = parseInt($(this).parent().find(".input-box").val());
+        var decreased = Math.max(value - 1, parseInt(min))
+        $(this).parent().find(".input-box").val(decreased);
+        calculateBooking();
+    })
+
+    var concertId;
+    $(document).on('click', '.bookTicket', function () {
+        concertId = $(this).data('id');
+        concertData = $(this).data('data');
+
+        Total = 0;
+        Amount = concertData.ticketPrice;
+        Discount = 0;
+        TotalSeats = concertData.totalSeats;
+        discountSeat = concertData.discountSeats;
+        discountPer = concertData.discountPercentage;
+
+        $("#ticketPrice").text(`Price of Ticket: ${Amount}`);
+        $("#ticketAmount").text(`Total Amount: 0`);
+        $("#ticketDiscount").text(`Discount: 0`);
+        $("#total").text(`Total Price: 0`);
+        $(".input-box").val(1);
+        calculateBooking()
+        $("#BookModal").modal('show');
+    });
+
+     $("#confirmBookingBtn").click(function(){
+        var booking = {
+            Id : null,
+            UserId: parseInt(loginUserId),
+            ConcertId: concertData.id,
+            NoOfSeats: NOS,
+            Amount: NOS * Amount,
+            TotalAmount:Total,
+            Discount: Discount,
+        }
+
+        console.log(booking)
+        $.ajax({
+            url: '/User/AddBooking',
+            type: 'POST',
+            data: {model: booking},
+            success: function (response) {
+                if (response.success) {
+                    toastr.success(response.message);
+                    $("#BookModal").modal('hide');
+                }
+                else {
+                    toastr.error(response.message);
+                    return;
+                }
+            },
+            error: function (error) {
+                toastr.error(error.message)
+            }
+        })
+    })
+    
+</script>

@@ -1,0 +1,181 @@
+@model Repository.ViewModels.AddEditConcertViewModel;
+<partial name="_ValidationScriptsPartial" />
+<div class="modal fade" id="AddEditConcertModal" tabindex="-1" aria-labelledby="AddEditConcertModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg  modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="addModifierModalLabel">Add New Concert</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="AddDataForm">
+                    <input type="hidden" asp-for="Id">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="Title" placeholder="Title" asp-for="Title"
+                                    name="Title">
+                                <label for="Title">Title*</label>
+                                <span class="text-danger ms-1 font-italic" asp-validation-for="Title"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="ArtistName" placeholder="ArtistName"
+                                    asp-for="ArtistName" name="ArtistName">
+                                <label for="ArtistName">ArtistName*</label>
+                                <span class="text-danger ms-1 font-italic" asp-validation-for="ArtistName"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-6 mb-3">
+                            <div class=" form-floating">
+                                <input type="number" asp-for="TicketPrice" class="form-control"
+                                    placeholder="TicketPrice" />
+                                <label for="TicketPrice" class="">TicketPrice</label>
+                                <span class="text-danger error" asp-validation-for="TicketPrice"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+                            <div class=" form-floating">
+                                <input type="number" asp-for="TotalSeats" class="form-control"
+                                    placeholder="TotalSeats" />
+                                <label for="TotalSeats" class="">TotalSeats*</label>
+                                <span class="text-danger error" asp-validation-for="TotalSeats"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-6 mb-3">
+                            <div class=" form-floating">
+                                <input type="number" asp-for="DiscountSeats" class="form-control"
+                                    placeholder="DiscountSeats" />
+                                <label for="DiscountSeats" class="">Discount on Seats</label>
+                                <span class="text-danger error" asp-validation-for="DiscountSeats"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+                            <div class=" form-floating">
+                                <input type="number" asp-for="DiscountPercentage" class="form-control"
+                                    placeholder="DiscountPercentage" />
+                                <label for="DiscountPercentage" class="">DiscountPercentage</label>
+                                <span class="text-danger error" asp-validation-for="DiscountPercentage"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-6 mb-3">
+                            <div class=" form-floating">
+                                <input type="date" asp-for="Date" class="form-control" placeholder="Start Date"
+                                    id="Date" />
+                                <label for="Start Date" class="">Concert Date</label>
+                                <span class="text-danger error" asp-validation-for="Date"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class=" form-floating">
+                                <input type="time" asp-for="Time" class="form-control" placeholder="Start Date"
+                                    id="Time" />
+                                <label for="Start Date" class="">Time</label>
+                                <span class="text-danger error" asp-validation-for="Time"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-md-4 mb-3">
+                            <div class="form-floating">
+                                <select class="form-select" id="category" asp-for="Country">
+                                    <option selected disabled hidden> Select </option>
+                                    <option value="abc">abc</option>
+                                    <option value="123">123</option>
+                                </select>
+                                <label for="category">Select Country</label>
+                                <span class="text-danger ms-1 font-italic" asp-validation-for="Country"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="form-floating">
+                                <select class="form-select" id="category" asp-for="State">
+                                    <option selected disabled hidden> Select </option>
+                                    <option value="abc">abc</option>
+                                    <option value="123">123</option>
+                                </select>
+                                <label for="category">Select State</label>
+                                <span class="text-danger ms-1 font-italic" asp-validation-for="State"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="form-floating">
+                                <select class="form-select" id="category" asp-for="City">
+                                    <option selected disabled hidden> Select </option>
+                                    <option value="abc">abc</option>
+                                    <option value="123">123</option>
+                                </select>
+                                <label for="category">Select City</label>
+                                <span class="text-danger ms-1 font-italic" asp-validation-for="City"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-floating">
+                            <input type="text" class="form-control" id="Address" placeholder="Address"
+                                asp-for="Address" />
+                            <label for="Address">Address</label>
+                            <span asp-validation-for="Address" class="text-danger ms-2"></span>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- Buttons -->
+                    <div class="d-flex justify-content-end">
+                        <button type="submit" class="btn btn-primary me-2" id="saveAddModifierBtn">Save</button>
+                        <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    $("#AddDataForm").submit(function(e) {
+    e.preventDefault();
+    var form = $("#AddDataForm")[0];
+    var formData = new FormData(form);
+
+    $.ajax({
+      url: '/Admin/AddEditConcert',
+      type: 'POST',
+      data: formData,
+      processData: false,
+      contentType: false,
+      success:function (response) {
+        if (response.success == true) {
+          toastr.success(response.message);
+          $("#AddEditConcertModal").modal('hide');
+            GetFilterConcerts()
+        }
+        else {
+          @* toastr.error(response.message); *@
+          return;
+        }
+        $("#AddEditModal").modal('hide');
+      },
+      error: function (error) {
+        @* toastr.error(error.message) *@
+      }
+    })
+  })
+</script>

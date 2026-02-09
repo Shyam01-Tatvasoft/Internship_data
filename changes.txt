@@ -1,0 +1,13 @@
+Changes 09-06-2025
+
+isdeleted flag type
+rename column name FK country
+drop country column
+add new role table
+After Registration Send confirmation mail for user login
+check string using string compare
+On Forbidden show warning message to user 
+Add UserName
+
+
+
